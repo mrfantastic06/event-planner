@@ -64,7 +64,7 @@ The project is composed of two main Java classes:
     - `location` (String): Location of the event.
     - `guests` (ArrayList<String>): List of invited guest names.
 
-2. **`EventManager` class**  
+2. **`Main` class**  
    Handles the logic for managing events:
     - Stores events using an `ArrayList<Event>`.
     - Provides methods to create, read, update, delete, save, load, and generate reports.
