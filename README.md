@@ -46,10 +46,6 @@
 
 10. Import/Export CSV: Allows event data to be exported/imported from .csv files.
 
-Great! Kita lanjut ke bagian:
-
----
-
 ### 📚 Documentation
 
 This section provides an overview of the design, logic, and implementation details of the *Event Planner* project.
