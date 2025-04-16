@@ -52,8 +52,6 @@
 
 This section provides an overview of the design, logic, and implementation details of the *Event Planner* project.
 
----
-
 #### Project Structure
 
 The project is composed of two main Java classes:
@@ -70,8 +68,6 @@ The project is composed of two main Java classes:
    Handles the logic for managing events:
     - Stores events using an ArrayList<Event>.
     - Provides methods to create, read, update, delete, save, load, and generate reports.
-
----
 
 #### Logic and Algorithms
 
@@ -94,8 +90,6 @@ The project is composed of two main Java classes:
     - Total number of invited guests.
     - Most used locations (via a Map<String, Integer> counter).
 
----
-
 #### Data Structures Used
 
 - **ArrayList<Event>**  
@@ -107,22 +101,18 @@ The project is composed of two main Java classes:
 - **Map<String, Integer>**  
   Used for counting locations or generating summary reports.
 
----
-
 #### Functions/Modules
 
-| Method Name             | Purpose                                 |
-| createEvent()           | Creates and adds a new event.           |
-| viewEvents()            | Displays all stored events.             |
-| updateEvent()           | Edits a specific event by ID.           |
-| deleteEvent()           | Deletes an event by ID.                 |
-| saveToFile()            | Saves events to a file (binary).        |
-| loadFromFile()          | Loads events from a file (binary).      |
-| exportToCSV()           | Saves events to a .csv file.            |
-| importFromCSV()         | Loads events from a   .csv file.        |
-| generateReport()        | Creates and displays event summaries.   |
-
----
+    Method Name            | Purpose                                 |
+1. createEvent()           | Creates and adds a new event.           |
+2. viewEvents()            | Displays all stored events.             |
+3. updateEvent()           | Edits a specific event by ID.           |
+4. deleteEvent()           | Deletes an event by ID.                 |
+5. saveToFile()            | Saves events to a file (binary).        |
+6. loadFromFile()          | Loads events from a file (binary).      |
+7. exportToCSV()           | Saves events to a .csv file.            |
+8. importFromCSV()         | Loads events from a   .csv file.        |
+9. generateReport()        | Creates and displays event summaries.   |
 
 #### Challenges Faced
 
