@@ -1,6 +1,6 @@
 # Project Title: Event Planner
 ## Student Name: [Atshaal Fathoni Al Aufa]
-### Link: https://docs.google.com/presentation/d/1EZHzVwfZba4fyoapy0VRxxIrOMfbMbsg/edit?usp=sharing&ouid=109273617365523007904&rtpof=true&sd=true
+### Link [https://docs.google.com/presentation/d/1EZHzVwfZba4fyoapy0VRxxIrOMfbMbsg/edit?usp=sharing&ouid=109273617365523007904&rtpof=true&sd=true]
 
 
 ### Description:
