@@ -1,5 +1,7 @@
 # 📌 Project Title: Event Planner
 ## 👤 Student Name: [Atshaal Fathoni Al Aufa]
+### Link: https://docs.google.com/presentation/d/1EZHzVwfZba4fyoapy0VRxxIrOMfbMbsg/edit?usp=sharing&ouid=109273617365523007904&rtpof=true&sd=true
+
 
 ### 📄 Description:
  Event Planner is a command-line based application that allows users to plan and manage events. The application supports basic CRUD operations such as creating, viewing, updating, and deleting events. Users can invite guests, schedule dates, and coordinate event details. Additionally, it includes features like report generation and import/export via CSV for better usability and data management.
