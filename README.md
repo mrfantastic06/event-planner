@@ -58,17 +58,17 @@ This section provides an overview of the design, logic, and implementation detai
 
 The project is composed of two main Java classes:
 
-1. **`Event` class**  
+1. **Event class**  
    Represents a single event with the following attributes:
-    - `id` (int): Unique identifier.
-    - `title` (String): Name of the event.
-    - `date` (String): Scheduled date of the event.
-    - `location` (String): Location of the event.
-    - `guests` (ArrayList<String>): List of invited guest names.
+    - id (int): Unique identifier.
+    - title (String): Name of the event.
+    - date (String): Scheduled date of the event.
+    - location (String): Location of the event.
+    - guests (ArrayList<String>): List of invited guest names.
 
-2. **`Main` class**  
+2. **Main class**  
    Handles the logic for managing events:
-    - Stores events using an `ArrayList<Event>`.
+    - Stores events using an ArrayList<Event>.
     - Provides methods to create, read, update, delete, save, load, and generate reports.
 
 ---
@@ -85,14 +85,14 @@ The project is composed of two main Java classes:
     - Proper format in CSV import.
 
 - **File Handling**
-    - **Save/Load**: Uses `ObjectOutputStream` and `ObjectInputStream` for binary data serialization.
-    - **CSV Import/Export**: Uses `FileReader`, `FileWriter`, and `BufferedReader` for plain-text CSV format.
+    - **Save/Load**: Uses ObjectOutputStream and ObjectInputStream for binary data serialization.
+    - **CSV Import/Export**: Uses FileReader, FileWriter, and BufferedReader for plain-text CSV format.
 
 - **Report Generation**  
   Scans the list of events and aggregates:
     - Total number of events.
     - Total number of invited guests.
-    - Most used locations (via a `Map<String, Integer>` counter).
+    - Most used locations (via a Map<String, Integer> counter).
 
 ---
 
@@ -102,7 +102,7 @@ The project is composed of two main Java classes:
   Used to store and iterate through events efficiently.
 
 - **ArrayList<String>**  
-  Used inside `Event` to hold multiple guest names.
+  Used inside Event to hold multiple guest names.
 
 - **Map<String, Integer>**  
   Used for counting locations or generating summary reports.
@@ -111,17 +111,16 @@ The project is composed of two main Java classes:
 
 #### Functions/Modules
 
-| Method Name               | Purpose                                 |
-|---------------------------|-----------------------------------------|
-| `createEvent()`           | Creates and adds a new event.           |
-| `viewEvents()`            | Displays all stored events.             |
-| `updateEvent()`           | Edits a specific event by ID.           |
-| `deleteEvent()`           | Deletes an event by ID.                 |
-| `saveToFile()`            | Saves events to a file (binary).        |
-| `loadFromFile()`          | Loads events from a file (binary).      |
-| `exportToCSV()`           | Saves events to a `.csv` file.          |
-| `importFromCSV()`         | Loads events from a `.csv` file.        |
-| `generateReport()`        | Creates and displays event summaries.   |
+| Method Name             | Purpose                                 |
+| createEvent()           | Creates and adds a new event.           |
+| viewEvents()            | Displays all stored events.             |
+| updateEvent()           | Edits a specific event by ID.           |
+| deleteEvent()           | Deletes an event by ID.                 |
+| saveToFile()            | Saves events to a file (binary).        |
+| loadFromFile()          | Loads events from a file (binary).      |
+| exportToCSV()           | Saves events to a .csv file.            |
+| importFromCSV()         | Loads events from a   .csv file.        |
+| generateReport()        | Creates and displays event summaries.   |
 
 ---
 
