@@ -1,12 +1,12 @@
-# 📌 Project Title: Event Planner
-## 👤 Student Name: [Atshaal Fathoni Al Aufa]
+# Project Title: Event Planner
+## Student Name: [Atshaal Fathoni Al Aufa]
 ### Link: https://docs.google.com/presentation/d/1EZHzVwfZba4fyoapy0VRxxIrOMfbMbsg/edit?usp=sharing&ouid=109273617365523007904&rtpof=true&sd=true
 
 
-### 📄 Description:
+### Description:
  Event Planner is a command-line based application that allows users to plan and manage events. The application supports basic CRUD operations such as creating, viewing, updating, and deleting events. Users can invite guests, schedule dates, and coordinate event details. Additionally, it includes features like report generation and import/export via CSV for better usability and data management.
 
-### 🎯 Objectives:
+### Objectives:
 1. To implement CRUD functionalities in Java using CLI.
 
 2. To apply file handling for data persistence.
@@ -48,13 +48,13 @@
 
 10. Import/Export CSV: Allows event data to be exported/imported from .csv files.
 
-### 📚 Documentation
+### Documentation
 
 This section provides an overview of the design, logic, and implementation details of the *Event Planner* project.
 
 ---
 
-#### 📦 Project Structure
+#### Project Structure
 
 The project is composed of two main Java classes:
 
@@ -73,7 +73,7 @@ The project is composed of two main Java classes:
 
 ---
 
-#### 🧠 Logic and Algorithms
+#### Logic and Algorithms
 
 - **ID Auto-Incrementation**  
   Each event gets a unique auto-incremented ID to simplify tracking and updates.
@@ -96,7 +96,7 @@ The project is composed of two main Java classes:
 
 ---
 
-#### 🧰 Data Structures Used
+#### Data Structures Used
 
 - **ArrayList<Event>**  
   Used to store and iterate through events efficiently.
@@ -109,7 +109,7 @@ The project is composed of two main Java classes:
 
 ---
 
-#### ⚙️ Functions/Modules
+#### Functions/Modules
 
 | Method Name               | Purpose                                 |
 |---------------------------|-----------------------------------------|
@@ -125,7 +125,7 @@ The project is composed of two main Java classes:
 
 ---
 
-#### 🧗 Challenges Faced
+#### Challenges Faced
 
 - Ensuring data persistence across sessions while keeping the code beginner-friendly.
 - Handling different formats (binary vs CSV) without external libraries.
